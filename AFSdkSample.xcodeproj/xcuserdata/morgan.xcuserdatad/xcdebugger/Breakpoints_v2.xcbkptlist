@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A2AC238B-A822-467C-8632-BDA0A74D756E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00F43A7F-60B9-4425-B9CA-0559002553BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AFSdkSample/AFSdkSampleApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFE59038-BA02-4C96-9ED5-8C5FB0828849"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AFSdkSample/AFSdkSampleApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "AudioFetch"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AFE59038-BA02-4C96-9ED5-8C5FB0828849 - 7067afa390a1c4ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AFSdkSample.FlutterDependencies.setupMethodChannel() -&gt; ()"
+                  moduleName = "AFSdkSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morgan/shared/mojolabs/projects/audiofetch/audiofetch_dev/af_mobile/ios-audiofetch-sdk-retry/AFSdkSample/AFSdkSample/AFSdkSampleApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "AFE59038-BA02-4C96-9ED5-8C5FB0828849 - 7067afa390a1c4ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AFSdkSample.FlutterDependencies.setupMethodChannel() -&gt; ()"
+                  moduleName = "AFSdkSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morgan/shared/mojolabs/projects/audiofetch/audiofetch_dev/af_mobile/ios-audiofetch-sdk-retry/AFSdkSample/AFSdkSample/AFSdkSampleApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AFE59038-BA02-4C96-9ED5-8C5FB0828849 - 7067afa390a1c4ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AFSdkSample.FlutterDependencies.setupMethodChannel() -&gt; ()"
+                  moduleName = "AFSdkSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morgan/shared/mojolabs/projects/audiofetch/audiofetch_dev/af_mobile/ios-audiofetch-sdk-retry/AFSdkSample/AFSdkSample/AFSdkSampleApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

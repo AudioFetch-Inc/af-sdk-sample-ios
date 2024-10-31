@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		908DF1522C93A32D006B0ECC /* AFSdkSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908DF1512C93A32D006B0ECC /* AFSdkSampleApp.swift */; };
+		908DF1542C93A32D006B0ECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908DF1532C93A32D006B0ECC /* ContentView.swift */; };
+		908DF1562C93A32E006B0ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908DF1552C93A32E006B0ECC /* Assets.xcassets */; };
+		908DF1592C93A32E006B0ECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908DF1582C93A32E006B0ECC /* Preview Assets.xcassets */; };
+		908DF1632C93A32F006B0ECC /* AFSdkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908DF1622C93A32F006B0ECC /* AFSdkSampleTests.swift */; };
+		908DF16D2C93A32F006B0ECC /* AFSdkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908DF16C2C93A32F006B0ECC /* AFSdkSampleUITests.swift */; };
+		908DF16F2C93A32F006B0ECC /* AFSdkSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908DF16E2C93A32F006B0ECC /* AFSdkSampleUITestsLaunchTests.swift */; };
+		9090DC2D2CADF79B0063AB70 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C22E2C94AEAA00BB8CA1 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90B08CDD2C9CC2E600172E6D /* AudioFetchSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B08CDC2C9CC2E600172E6D /* AudioFetchSDK.xcframework */; };
+		90B08CDF2C9CCE1100172E6D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B08CDE2C9CCE1100172E6D /* MediaPlayer.framework */; };
+		90B08CE12C9DE9C800172E6D /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B08CE02C9DE9C800172E6D /* libresolv.9.tbd */; };
+		90F2C2322C94AEAA00BB8CA1 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C22E2C94AEAA00BB8CA1 /* path_provider_foundation.xcframework */; };
+		90F2C2332C94AEAA00BB8CA1 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C22F2C94AEAA00BB8CA1 /* FlutterPluginRegistrant.xcframework */; };
+		90F2C2362C94F12700BB8CA1 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C22D2C94AEAA00BB8CA1 /* App.xcframework */; };
+		90F2C2372C94F12700BB8CA1 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C22D2C94AEAA00BB8CA1 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90F2C2392C94F12E00BB8CA1 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C2302C94AEAA00BB8CA1 /* Flutter.xcframework */; };
+		90F2C23A2C94F12E00BB8CA1 /* Flutter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90F2C2302C94AEAA00BB8CA1 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFDF7CEF2374E96A766B5AC9 /* Pods_AFSdkSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC34F49C38EC74EAABFF1525 /* Pods_AFSdkSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		908DF15F2C93A32F006B0ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 908DF1462C93A32D006B0ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908DF14D2C93A32D006B0ECC;
+			remoteInfo = AFSdkSample;
+		};
+		908DF1692C93A32F006B0ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 908DF1462C93A32D006B0ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908DF14D2C93A32D006B0ECC;
+			remoteInfo = AFSdkSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90F2C2382C94F12700BB8CA1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9090DC2D2CADF79B0063AB70 /* path_provider_foundation.xcframework in Embed Frameworks */,
+				90F2C23A2C94F12E00BB8CA1 /* Flutter.xcframework in Embed Frameworks */,
+				90F2C2372C94F12700BB8CA1 /* App.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DCBB9EC9540030D93B8E1EB /* Pods-AFSdkSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSdkSample.release.xcconfig"; path = "Target Support Files/Pods-AFSdkSample/Pods-AFSdkSample.release.xcconfig"; sourceTree = "<group>"; };
+		902004802C9B829B007CCD66 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		908DF14E2C93A32D006B0ECC /* AFSdkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFSdkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908DF1512C93A32D006B0ECC /* AFSdkSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFSdkSampleApp.swift; sourceTree = "<group>"; };
+		908DF1532C93A32D006B0ECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		908DF1552C93A32E006B0ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		908DF1582C93A32E006B0ECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		908DF15E2C93A32F006B0ECC /* AFSdkSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFSdkSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908DF1622C93A32F006B0ECC /* AFSdkSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFSdkSampleTests.swift; sourceTree = "<group>"; };
+		908DF1682C93A32F006B0ECC /* AFSdkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFSdkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908DF16C2C93A32F006B0ECC /* AFSdkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFSdkSampleUITests.swift; sourceTree = "<group>"; };
+		908DF16E2C93A32F006B0ECC /* AFSdkSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFSdkSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90B0239D2CB080A40010E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		90B0239E2CB081D20010E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		90B08CDC2C9CC2E600172E6D /* AudioFetchSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AudioFetchSDK.xcframework; path = AudioFetchSDK/AudioFetchSDK.xcframework; sourceTree = "<group>"; };
+		90B08CDE2C9CCE1100172E6D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		90B08CE02C9DE9C800172E6D /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		90F2C22D2C94AEAA00BB8CA1 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = "../../af-disco-ios/$(CONFIGURATION)/App.xcframework"; sourceTree = "<group>"; };
+		90F2C22E2C94AEAA00BB8CA1 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = "../../af-disco-ios/$(CONFIGURATION)/path_provider_foundation.xcframework"; sourceTree = "<group>"; };
+		90F2C22F2C94AEAA00BB8CA1 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = "../../af-disco-ios/$(CONFIGURATION)/FlutterPluginRegistrant.xcframework"; sourceTree = "<group>"; };
+		90F2C2302C94AEAA00BB8CA1 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "../../af-disco-ios/$(CONFIGURATION)/Flutter.xcframework"; sourceTree = "<group>"; };
+		CF1BD458421C07E60F6F299D /* Pods-AFSdkSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSdkSample.debug.xcconfig"; path = "Target Support Files/Pods-AFSdkSample/Pods-AFSdkSample.debug.xcconfig"; sourceTree = "<group>"; };
+		EC34F49C38EC74EAABFF1525 /* Pods_AFSdkSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFSdkSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908DF14B2C93A32D006B0ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B08CE12C9DE9C800172E6D /* libresolv.9.tbd in Frameworks */,
+				90B08CDF2C9CCE1100172E6D /* MediaPlayer.framework in Frameworks */,
+				90B08CDD2C9CC2E600172E6D /* AudioFetchSDK.xcframework in Frameworks */,
+				90F2C2392C94F12E00BB8CA1 /* Flutter.xcframework in Frameworks */,
+				90F2C2322C94AEAA00BB8CA1 /* path_provider_foundation.xcframework in Frameworks */,
+				90F2C2332C94AEAA00BB8CA1 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				90F2C2362C94F12700BB8CA1 /* App.xcframework in Frameworks */,
+				CFDF7CEF2374E96A766B5AC9 /* Pods_AFSdkSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908DF15B2C93A32F006B0ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908DF1652C93A32F006B0ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A13966D9B481AF34C4B69D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF1BD458421C07E60F6F299D /* Pods-AFSdkSample.debug.xcconfig */,
+				8DCBB9EC9540030D93B8E1EB /* Pods-AFSdkSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		908DF1452C93A32D006B0ECC = {
+			isa = PBXGroup;
+			children = (
+				908DF17B2C93A491006B0ECC /* Frameworks */,
+				908DF1502C93A32D006B0ECC /* AFSdkSample */,
+				908DF1612C93A32F006B0ECC /* AFSdkSampleTests */,
+				908DF16B2C93A32F006B0ECC /* AFSdkSampleUITests */,
+				908DF14F2C93A32D006B0ECC /* Products */,
+				1A13966D9B481AF34C4B69D8 /* Pods */,
+				90B0239D2CB080A40010E353 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		908DF14F2C93A32D006B0ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908DF14E2C93A32D006B0ECC /* AFSdkSample.app */,
+				908DF15E2C93A32F006B0ECC /* AFSdkSampleTests.xctest */,
+				908DF1682C93A32F006B0ECC /* AFSdkSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908DF1502C93A32D006B0ECC /* AFSdkSample */ = {
+			isa = PBXGroup;
+			children = (
+				90B0239E2CB081D20010E353 /* Info.plist */,
+				908DF1512C93A32D006B0ECC /* AFSdkSampleApp.swift */,
+				902004802C9B829B007CCD66 /* BridgingHeader.h */,
+				908DF1532C93A32D006B0ECC /* ContentView.swift */,
+				908DF1552C93A32E006B0ECC /* Assets.xcassets */,
+				908DF1572C93A32E006B0ECC /* Preview Content */,
+			);
+			path = AFSdkSample;
+			sourceTree = "<group>";
+		};
+		908DF1572C93A32E006B0ECC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				908DF1582C93A32E006B0ECC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		908DF1612C93A32F006B0ECC /* AFSdkSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				908DF1622C93A32F006B0ECC /* AFSdkSampleTests.swift */,
+			);
+			path = AFSdkSampleTests;
+			sourceTree = "<group>";
+		};
+		908DF16B2C93A32F006B0ECC /* AFSdkSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				908DF16C2C93A32F006B0ECC /* AFSdkSampleUITests.swift */,
+				908DF16E2C93A32F006B0ECC /* AFSdkSampleUITestsLaunchTests.swift */,
+			);
+			path = AFSdkSampleUITests;
+			sourceTree = "<group>";
+		};
+		908DF17B2C93A491006B0ECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B08CE02C9DE9C800172E6D /* libresolv.9.tbd */,
+				90B08CDE2C9CCE1100172E6D /* MediaPlayer.framework */,
+				90B08CDC2C9CC2E600172E6D /* AudioFetchSDK.xcframework */,
+				90F2C22D2C94AEAA00BB8CA1 /* App.xcframework */,
+				90F2C2302C94AEAA00BB8CA1 /* Flutter.xcframework */,
+				90F2C22F2C94AEAA00BB8CA1 /* FlutterPluginRegistrant.xcframework */,
+				90F2C22E2C94AEAA00BB8CA1 /* path_provider_foundation.xcframework */,
+				EC34F49C38EC74EAABFF1525 /* Pods_AFSdkSample.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		908DF14D2C93A32D006B0ECC /* AFSdkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908DF1722C93A32F006B0ECC /* Build configuration list for PBXNativeTarget "AFSdkSample" */;
+			buildPhases = (
+				42EAC099AEE1E0043247DFA1 /* [CP] Check Pods Manifest.lock */,
+				908DF14A2C93A32D006B0ECC /* Sources */,
+				908DF14B2C93A32D006B0ECC /* Frameworks */,
+				908DF14C2C93A32D006B0ECC /* Resources */,
+				90F2C2352C94DD8E00BB8CA1 /* ShellScript */,
+				90F2C2382C94F12700BB8CA1 /* Embed Frameworks */,
+				0C3F7A23142D45CE26C94915 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFSdkSample;
+			productName = AFSdkSample;
+			productReference = 908DF14E2C93A32D006B0ECC /* AFSdkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		908DF15D2C93A32F006B0ECC /* AFSdkSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908DF1752C93A32F006B0ECC /* Build configuration list for PBXNativeTarget "AFSdkSampleTests" */;
+			buildPhases = (
+				908DF15A2C93A32F006B0ECC /* Sources */,
+				908DF15B2C93A32F006B0ECC /* Frameworks */,
+				908DF15C2C93A32F006B0ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908DF1602C93A32F006B0ECC /* PBXTargetDependency */,
+			);
+			name = AFSdkSampleTests;
+			productName = AFSdkSampleTests;
+			productReference = 908DF15E2C93A32F006B0ECC /* AFSdkSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		908DF1672C93A32F006B0ECC /* AFSdkSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908DF1782C93A32F006B0ECC /* Build configuration list for PBXNativeTarget "AFSdkSampleUITests" */;
+			buildPhases = (
+				908DF1642C93A32F006B0ECC /* Sources */,
+				908DF1652C93A32F006B0ECC /* Frameworks */,
+				908DF1662C93A32F006B0ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908DF16A2C93A32F006B0ECC /* PBXTargetDependency */,
+			);
+			name = AFSdkSampleUITests;
+			productName = AFSdkSampleUITests;
+			productReference = 908DF1682C93A32F006B0ECC /* AFSdkSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		908DF1462C93A32D006B0ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					908DF14D2C93A32D006B0ECC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					908DF15D2C93A32F006B0ECC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 908DF14D2C93A32D006B0ECC;
+					};
+					908DF1672C93A32F006B0ECC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 908DF14D2C93A32D006B0ECC;
+					};
+				};
+			};
+			buildConfigurationList = 908DF1492C93A32D006B0ECC /* Build configuration list for PBXProject "AFSdkSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 908DF1452C93A32D006B0ECC;
+			productRefGroup = 908DF14F2C93A32D006B0ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				908DF14D2C93A32D006B0ECC /* AFSdkSample */,
+				908DF15D2C93A32F006B0ECC /* AFSdkSampleTests */,
+				908DF1672C93A32F006B0ECC /* AFSdkSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		908DF14C2C93A32D006B0ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908DF1592C93A32E006B0ECC /* Preview Assets.xcassets in Resources */,
+				908DF1562C93A32E006B0ECC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908DF15C2C93A32F006B0ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908DF1662C93A32F006B0ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C3F7A23142D45CE26C94915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFSdkSample/Pods-AFSdkSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFSdkSample/Pods-AFSdkSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFSdkSample/Pods-AFSdkSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EAC099AEE1E0043247DFA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFSdkSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F2C2352C94DD8E00BB8CA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908DF14A2C93A32D006B0ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908DF1542C93A32D006B0ECC /* ContentView.swift in Sources */,
+				908DF1522C93A32D006B0ECC /* AFSdkSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908DF15A2C93A32F006B0ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908DF1632C93A32F006B0ECC /* AFSdkSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908DF1642C93A32F006B0ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908DF16F2C93A32F006B0ECC /* AFSdkSampleUITestsLaunchTests.swift in Sources */,
+				908DF16D2C93A32F006B0ECC /* AFSdkSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		908DF1602C93A32F006B0ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908DF14D2C93A32D006B0ECC /* AFSdkSample */;
+			targetProxy = 908DF15F2C93A32F006B0ECC /* PBXContainerItemProxy */;
+		};
+		908DF16A2C93A32F006B0ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908DF14D2C93A32D006B0ECC /* AFSdkSample */;
+			targetProxy = 908DF1692C93A32F006B0ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		908DF1702C93A32F006B0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		908DF1712C93A32F006B0ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		908DF1732C93A32F006B0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1BD458421C07E60F6F299D /* Pods-AFSdkSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFSdkSample/Preview Content\"";
+				DEVELOPMENT_TEAM = CTDRGXHF3C;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/$(CONFIGURATION)",
+					"$(PROJECT_DIR)/AudioFetchSDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"$(PROJECT_DIR)/AudioFetchSDK/Headers",
+				);
+				INFOPLIST_FILE = AFSdkSample/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Please\\ allow\\ this\\ App\\ access\\ to\\ allow\\ local\\ network\\ access\\ to\\ AudioFetch\\ boxes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ld_classic",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waio.AFSdkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = AFSdkSample/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		908DF1742C93A32F006B0ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCBB9EC9540030D93B8E1EB /* Pods-AFSdkSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFSdkSample/Preview Content\"";
+				DEVELOPMENT_TEAM = CTDRGXHF3C;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter/$(CONFIGURATION)",
+					"$(PROJECT_DIR)/AudioFetchSDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"$(PROJECT_DIR)/AudioFetchSDK/Headers",
+				);
+				INFOPLIST_FILE = AFSdkSample/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Please\\ allow\\ this\\ App\\ access\\ to\\ allow\\ local\\ network\\ access\\ to\\ AudioFetch\\ boxes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-ld_classic",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waio.AFSdkSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = AFSdkSample/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		908DF1762C93A32F006B0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTDRGXHF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waio.AFSdkSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFSdkSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFSdkSample";
+			};
+			name = Debug;
+		};
+		908DF1772C93A32F006B0ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTDRGXHF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waio.AFSdkSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFSdkSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFSdkSample";
+			};
+			name = Release;
+		};
+		908DF1792C93A32F006B0ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTDRGXHF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waio.AFSdkSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AFSdkSample;
+			};
+			name = Debug;
+		};
+		908DF17A2C93A32F006B0ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTDRGXHF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waio.AFSdkSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AFSdkSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908DF1492C93A32D006B0ECC /* Build configuration list for PBXProject "AFSdkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908DF1702C93A32F006B0ECC /* Debug */,
+				908DF1712C93A32F006B0ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908DF1722C93A32F006B0ECC /* Build configuration list for PBXNativeTarget "AFSdkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908DF1732C93A32F006B0ECC /* Debug */,
+				908DF1742C93A32F006B0ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908DF1752C93A32F006B0ECC /* Build configuration list for PBXNativeTarget "AFSdkSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908DF1762C93A32F006B0ECC /* Debug */,
+				908DF1772C93A32F006B0ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908DF1782C93A32F006B0ECC /* Build configuration list for PBXNativeTarget "AFSdkSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908DF1792C93A32F006B0ECC /* Debug */,
+				908DF17A2C93A32F006B0ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 908DF1462C93A32D006B0ECC /* Project object */;
+}
