@@ -28,7 +28,7 @@ This app is intended to be a minimal example app to show the integration of the 
 
 Add the afAudio XCFramework in Build Phases > Link Binary with LIbraries:
 
-![Screen Shot 2024-10-30 at 10.09.40 AM](./images/Screen Shot 2024-10-30 at 10.09.40 AM.png)
+![Screen Shot 2024-10-30 at 10.09.40 AM](./images/image1.png)
 
 Additionally add the libresolv and MediaPlayer frameworks as shown above.
 
@@ -45,13 +45,13 @@ The afDisco library is re-written in v3 for improved performance and stability, 
 
 As with afAudio above, add the frameworks in Build Phases > Link Binary with Libraries:
 
-![Screen Shot 2024-10-30 at 10.15.46 AM](./images/Screen Shot 2024-10-30 at 10.15.46 AM.png)
+![Screen Shot 2024-10-30 at 10.15.46 AM](./images/image2.png)
 
 There are 4 frameworks to pull in, the last 4 in above. 
 
 Additionally also in Build Phases, these frameworks need to be embedded:
 
-![Screen Shot 2024-10-30 at 10.48.00 AM](./images/Screen Shot 2024-10-30 at 10.48.00 AM.png)
+![Screen Shot 2024-10-30 at 10.48.00 AM](./images/image3.png)
 
 In Build Phases > Search Paths, two items need to be added to Framework Search Paths:
 
