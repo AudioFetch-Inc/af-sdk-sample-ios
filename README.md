@@ -14,8 +14,13 @@ This sample assumes that the afDisco distribution is a peer of this directory:
     af-sdk-sample-ios
     af-disco-ios
 
-You can, of course, organize in any way you wish, but the relative paths in the XCode integration of the frameworks from the afDisco lib assume this structure for this sample app. The afAudio library takes the form of framework that is included in AudioFetchSDK here for convienence.
+You can, of course, organize in any way you wish, but the relative paths in the XCode integration of the frameworks from the afDisco lib assume this structure for this sample app. The afAudio library takes the form of framework that is included in the Frameworks directory here for convienence.
 
+## v3.0.1 Changes
+
+   - Removed AFNetworking dependency
+   - Removed Cocoapods and workspace
+   - Fixed ios 18 audio output issue with AF Audio lib update
 
 ## Building and Running
 
